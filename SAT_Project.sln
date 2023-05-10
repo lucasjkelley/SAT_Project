@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33516.290
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SAT_Project.UI.MVC", "SAT_Project.UI.MVC\SAT_Project.UI.MVC.csproj", "{566B673F-D597-498A-AAEC-B8C1B60EBD56}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{566B673F-D597-498A-AAEC-B8C1B60EBD56}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{566B673F-D597-498A-AAEC-B8C1B60EBD56}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{566B673F-D597-498A-AAEC-B8C1B60EBD56}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{566B673F-D597-498A-AAEC-B8C1B60EBD56}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E694758A-36B5-4354-AD27-FF6D2EC52759}
+	EndGlobalSection
+EndGlobal
