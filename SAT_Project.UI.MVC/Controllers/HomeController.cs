@@ -16,6 +16,9 @@ namespace SAT_Project.UI.MVC.Controllers
         public IActionResult Index()
         {
             return View();
+        }public IActionResult Contact()
+        {
+            return View();
         }
 
         public IActionResult Privacy()
