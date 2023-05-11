@@ -46,12 +46,12 @@ namespace SAT_Project.DATA.EF.Models//.Metadata
         public int StudentId { get; set; }
 
         [Required]
-        [Display(Name = "Scheduled Class ID")]
+        [Display(Name = "Scheduled Class Id")]
         public int ScheduledClassId { get; set; }
 
         [Required]
         [Display(Name = "Enrollment Date")]
-        [DisplayFormat(DataFormatString = "{0:d}, ApplyFormatInEditMode=true")]
+        [DataType(DataType.Date)]
         public DateTime EnrollmentDate { get; set; }
 
         //public virtual ScheduledClass ScheduledClass { get; set; } = null!;
@@ -73,7 +73,7 @@ namespace SAT_Project.DATA.EF.Models//.Metadata
 
         [Required]
         [Display(Name = "End Date")]
-        [DisplayFormat(DataFormatString = "{0:d}, ApplyFormatInEditMode=true")]
+        [DataType(DataType.Date)]
         public DateTime EndDate { get; set; }
 
         [Required]
