@@ -19,4 +19,8 @@
     <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="6.0.13" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\SAT_Project.DATA.EF\SAT_Project.DATA.EF\SAT_Project.DATA.EF.csproj" />
+  </ItemGroup>
+
 </Project>
