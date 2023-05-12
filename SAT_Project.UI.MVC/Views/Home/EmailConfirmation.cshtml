@@ -1,0 +1,35 @@
+﻿@model SAT_Project.UI.MVC.Models.ContactViewModel
+
+
+
+    <!-- ======= Contact Section ======= -->
+    <section class="contact" data-aos="fade-up" data-aos-easing="ease-in-out" data-aos-duration="500">
+        
+            <div class="row text-center">
+
+                <div class="info-box container">
+                    <i class="bx bx-check-circle"></i>
+                    <h3>Message Sent!</h3>
+                    <p>
+                        Thank you for contacting us! You will receive a response within the next 2 business days.
+                    </p>
+                                        
+                    <div class="offset-3 col-md-6">
+                        <p>
+                            You sent the following message on 
+                            @DateTime.Now.Date.ToShortDateString() at
+                            @DateTime.Now.ToShortTimeString() :
+                        </p>
+                    </div>
+                    <br />
+                    <div class="offset-3 col-md-6 pb-2">
+                        <p>
+                            <em>@Html.Raw(Model.Message)</em>
+                        </p>
+                    </div>
+
+                </div>                          
+
+        </div>
+    </section><!-- End Confirmation Section -->
+

@@ -141,8 +141,8 @@ namespace SAT_Project.DATA.EF.Models//.Metadata
         [Required]
         public int Ssid { get; set; }
 
-        //public virtual StudentStatus Ss { get; set; } = null!;
-        //public virtual ICollection<Enrollment> Enrollments { get; set; }
+        public virtual StudentStatus Ss { get; set; } = null!;
+        public virtual ICollection<Enrollment> Enrollments { get; set; }
     }
 
     public class StudentStatusMetadata
